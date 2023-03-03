@@ -8,7 +8,7 @@ library AccessControlSchema {
         // this is the default access class all user has this role
         DEFAULT,
         // this is the role of the staking manager
-        STAKING_MODULE_MANAGER
+        BANK_MODULE_MANAGER
         
     }
 
