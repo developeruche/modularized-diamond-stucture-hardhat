@@ -76,4 +76,15 @@ library BankProvider {
 
         emit Pause(_status);
     }
+
+    function bal(address _addr)
+        internal 
+        view
+        returns (
+            uint256 bal_
+        )
+    {
+        bal_ = bankStorage().balances[_addr];
+    }
+
 }
